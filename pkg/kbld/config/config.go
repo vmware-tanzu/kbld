@@ -6,6 +6,7 @@ package config
 import (
 	"fmt"
 	"io/ioutil"
+	"reflect"
 
 	semver "github.com/hashicorp/go-version"
 	"github.com/k14s/imgpkg/pkg/imgpkg/lockconfig"
@@ -67,6 +68,13 @@ type ImageOverride struct {
 	NewImage     string                     `json:"newImage"`
 	Preresolved  bool                       `json:"preresolved,omitempty"`
 	TagSelection *versions.VersionSelection `json:"tagSelection,omitempty"`
+	ImageMetas   []ImageMeta                `json:",omitempty"`
+}
+
+type ImageMeta struct {
+	URL  string `json:"URL,omitempty" yaml:"URL,omitempty"`
+	Type string `json:"Type,omitempty" yaml:"Type,omitempty"`
+	Tag  string `json:"Tag,omitempty" yaml:"Tag,omitempty"`
 }
 
 type ImageDestination struct {
@@ -167,12 +175,15 @@ func NewConfigFromImagesLock(res ctlres.Resource) (Config, error) {
 	overridesConfig := NewConfig()
 
 	for _, image := range imagesLock.Images {
+		var iMetas []ImageMeta
+		yaml.Unmarshal([]byte(image.Annotations[ImagesLockKbldMetas]), &iMetas)
 		iOverride := ImageOverride{
 			ImageRef: ImageRef{
 				Image: image.Annotations[ImagesLockKbldID],
 			},
 			NewImage:    image.Image,
 			Preresolved: true,
+			ImageMetas:  iMetas,
 		}
 		overridesConfig.Overrides = append(overridesConfig.Overrides, iOverride)
 	}
@@ -322,7 +333,8 @@ func UniqueImageOverrides(overrides []ImageOverride) []ImageOverride {
 	for _, override := range overrides {
 		var found bool
 		for _, addedOverride := range result {
-			if addedOverride == override {
+			// using DeepEqual instead of '==' since ImageOverride contains a slice
+			if reflect.DeepEqual(addedOverride, override) {
 				found = true
 				break
 			}
