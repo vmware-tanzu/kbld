@@ -1,4 +1,4 @@
-// Copyright 2024 The Carvel Authors.
+// Copyright 2020 VMware, Inc.
 // SPDX-License-Identifier: Apache-2.0
 
 package versions
