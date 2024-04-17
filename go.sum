@@ -129,10 +129,10 @@ github.com/vbatts/tar-split v0.11.3 h1:hLFqsOLQ1SsppQNTMpkpPXClLDfC2A3Zgy9OUU+RV
 github.com/vbatts/tar-split v0.11.3/go.mod h1:9QlHN18E+fEH7RdG+QAJJcuya3rqT7eXSTY7wGrAokY=
 github.com/vito/go-interact v1.0.1 h1:O8xi8c93bRUv2Tb/v6HdiuGc+WnWt+AQzF74MOOdlBs=
 github.com/vito/go-interact v1.0.1/go.mod h1:HrdHSJXD2yn1MhlTwSIMeFgQ5WftiIorszVGd3S/DAA=
-github.com/vmware-tanzu/carvel-imgpkg v0.37.9 h1:XxLNBZ06rI74p4rksHTCkHXyRNIqZhcySTHFUikSl4I=
-github.com/vmware-tanzu/carvel-imgpkg v0.37.9/go.mod h1:Lzr4hzEkVBO3ks/6UyilNesXg5VsrhCf6rw94xd8KCQ=
-github.com/vmware-tanzu/carvel-vendir v0.34.10 h1:SIcs11Xr5jDu7FEMAUKpc5vFBQQEQp790GHp0nhFX+I=
-github.com/vmware-tanzu/carvel-vendir v0.34.10/go.mod h1:jUOvw44NCSxkvopJMpwKqNK5AqhmU1daYRpYZaDSKnc=
+github.com/vmware-tanzu/carvel-imgpkg v0.37.10 h1:rQtmZk5bbUw6zEI7x3DNcgD46mbmB5MajF8pJ5oFrQQ=
+github.com/vmware-tanzu/carvel-imgpkg v0.37.10/go.mod h1:9k5xaHNkRQx5a5ktx327eEQXsyq/zZSxvV8/wbwjmyo=
+github.com/vmware-tanzu/carvel-vendir v0.34.11 h1:+qdmKjAzTFiH1slYmz9nH+I0l5AwjK+HpD3ifEIvNXE=
+github.com/vmware-tanzu/carvel-vendir v0.34.11/go.mod h1:80Yk7kaefax5lFxQFdY7AicDbyS25FLdo8obwV2Xvgw=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.4.1/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=
