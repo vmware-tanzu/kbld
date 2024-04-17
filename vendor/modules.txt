@@ -1,11 +1,11 @@
-# carvel.dev/imgpkg v0.41.1
-## explicit; go 1.21
+# carvel.dev/imgpkg v0.42.0
+## explicit; go 1.22
 carvel.dev/imgpkg/pkg/imgpkg/lockconfig
-# carvel.dev/vendir v0.40.0
+# carvel.dev/vendir v0.40.1
 ## explicit; go 1.21
 carvel.dev/vendir/pkg/vendir/versions
 carvel.dev/vendir/pkg/vendir/versions/v1alpha1
-# github.com/carvel-dev/semver/v4 v4.0.1-0.20230221220520-8090ce423695
+# github.com/carvel-dev/semver/v4 v4.0.1-0.20240402203627-beb83fbf25e4
 ## explicit; go 1.14
 github.com/carvel-dev/semver/v4
 # github.com/containerd/stargz-snapshotter/estargz v0.14.3
@@ -26,7 +26,7 @@ github.com/cppforlife/go-cli-ui/ui/table
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/docker/cli v24.0.0+incompatible
+# github.com/docker/cli v25.0.5+incompatible
 ## explicit
 github.com/docker/cli/cli/config
 github.com/docker/cli/cli/config/configfile
@@ -35,7 +35,7 @@ github.com/docker/cli/cli/config/types
 # github.com/docker/distribution v2.8.2+incompatible
 ## explicit
 github.com/docker/distribution/registry/client/auth/challenge
-# github.com/docker/docker v24.0.9+incompatible
+# github.com/docker/docker v25.0.5+incompatible
 ## explicit
 github.com/docker/docker/pkg/homedir
 # github.com/docker/docker-credential-helpers v0.7.0
@@ -162,7 +162,7 @@ golang.org/x/net/idna
 # golang.org/x/sync v0.7.0
 ## explicit; go 1.18
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.17.0
+# golang.org/x/sys v0.19.0
 ## explicit; go 1.18
 golang.org/x/sys/execabs
 golang.org/x/sys/plan9
