@@ -1,5 +1,5 @@
-carvel.dev/imgpkg v0.42.0 h1:BrpcalfAGW/PMeFtUC9DNhWNH0gwmf+40i7lI/327ss=
-carvel.dev/imgpkg v0.42.0/go.mod h1:fCl7pUYlcdKti48rCrsceV5J1nGwoAgYY/V24Um8JmI=
+carvel.dev/imgpkg v0.42.1 h1:HsQq8QJ+Dxp1K/VZac5UHL6WxADnWsO5iXWexUqI2W8=
+carvel.dev/imgpkg v0.42.1/go.mod h1:jYzi+SyOQ4A5x9jnkpZlW4/ezQFDYOrZGEZ4vwCG3BU=
 carvel.dev/vendir v0.40.1 h1:w2fIBASZ7X6N2XlN+5xEDOf2Vn8eVRdz0mIZHuM4080=
 carvel.dev/vendir v0.40.1/go.mod h1:gW5hdNd033NCV1TFbUtvUE1Kel1eEzyiwnDyDX+y2xE=
 github.com/BurntSushi/toml v1.2.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
