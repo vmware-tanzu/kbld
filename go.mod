@@ -2,6 +2,8 @@ module github.com/vmware-tanzu/carvel-kbld
 
 go 1.22
 
+toolchain go1.22.3
+
 require (
 	github.com/cppforlife/cobrautil v0.0.0-20221021151949-d60711905d65
 	github.com/cppforlife/go-cli-ui v0.0.0-20220428182907-73db60c7611a
