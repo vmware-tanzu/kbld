@@ -2,7 +2,6 @@ linters:
   enable:
     - goheader
     - revive
-    - deadcode
     - unused
   disable-all: true
 # all available settings of specific linters
@@ -12,6 +11,11 @@ linters-settings:
       regexp:
         copyright-year: 20[0-9][0-9]
     template-path: code-header-template.txt
+  revive:
+    enable-all: true
+    rules:
+    - name: dot-imports
+      disabled: true
 issues:
   max-issues-per-linter: 0
   max-same-issues: 0
