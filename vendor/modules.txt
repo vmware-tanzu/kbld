@@ -1,4 +1,4 @@
-# carvel.dev/imgpkg v0.42.1
+# carvel.dev/imgpkg v0.42.2
 ## explicit; go 1.22
 carvel.dev/imgpkg/pkg/imgpkg/lockconfig
 # carvel.dev/vendir v0.40.1
