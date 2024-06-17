@@ -1,8 +1,8 @@
-# carvel.dev/imgpkg v0.42.1
+# carvel.dev/imgpkg v0.42.2
 ## explicit; go 1.22
 carvel.dev/imgpkg/pkg/imgpkg/lockconfig
-# carvel.dev/vendir v0.40.1
-## explicit; go 1.21
+# carvel.dev/vendir v0.40.2
+## explicit; go 1.22
 carvel.dev/vendir/pkg/vendir/versions
 carvel.dev/vendir/pkg/vendir/versions/v1alpha1
 # github.com/carvel-dev/semver/v4 v4.0.1-0.20240402203627-beb83fbf25e4
