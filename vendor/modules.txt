@@ -1,5 +1,5 @@
-# carvel.dev/imgpkg v0.42.2
-## explicit; go 1.22
+# carvel.dev/imgpkg v0.43.0
+## explicit; go 1.22.5
 carvel.dev/imgpkg/pkg/imgpkg/lockconfig
 # carvel.dev/vendir v0.40.2
 ## explicit; go 1.22
@@ -161,7 +161,7 @@ golang.org/x/net/idna
 # golang.org/x/sync v0.7.0
 ## explicit; go 1.18
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.19.0
+# golang.org/x/sys v0.22.0
 ## explicit; go 1.18
 golang.org/x/sys/execabs
 golang.org/x/sys/plan9

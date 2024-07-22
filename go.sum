@@ -1,5 +1,5 @@
-carvel.dev/imgpkg v0.42.2 h1:iHrdHoc40wjW/viHvXYF/urpUWv5VUh1X2sL7mXSgXM=
-carvel.dev/imgpkg v0.42.2/go.mod h1:jYzi+SyOQ4A5x9jnkpZlW4/ezQFDYOrZGEZ4vwCG3BU=
+carvel.dev/imgpkg v0.43.0 h1:Co2oGu0iR76/PwuJt+ZJBsrX2BsMKguvv9x6bFh2E0g=
+carvel.dev/imgpkg v0.43.0/go.mod h1:bPg9BMLe00c1Z9YW30zuNaqaGTEAl4ysDMl/lzftGck=
 carvel.dev/vendir v0.40.2 h1:7GWheXNQu6upYkgd6+LFyO7jZEiXct5sdAgnhg9aigI=
 carvel.dev/vendir v0.40.2/go.mod h1:22uPR3ll0K26CcTtUU+MrOQxrByBN6s5VjTfmv49JuQ=
 github.com/BurntSushi/toml v1.2.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
@@ -173,8 +173,8 @@ golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220906165534-d0df966e6959/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.19.0 h1:q5f1RH2jigJ1MoAWp2KTp3gm5zAGFUTarQZ5U386+4o=
-golang.org/x/sys v0.19.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
+golang.org/x/sys v0.22.0 h1:RI27ohtqKCnwULzJLqkv897zojh5/DwS/ENaMzUOaWI=
+golang.org/x/sys v0.22.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
 golang.org/x/term v0.0.0-20220411215600-e5f449aeb171/go.mod h1:jbD1KX2456YbFQfuXm/mYQcufACuNUgVhRMnK/tPxf8=
 golang.org/x/term v0.18.0 h1:FcHjZXDMxI8mM3nwhX9HlKop4C0YQvCVCdwYl2wOtE8=
 golang.org/x/term v0.18.0/go.mod h1:ILwASektA3OnRv7amZ1xhE/KTR+u50pbXfZ03+6Nx58=
