@@ -57,7 +57,6 @@ func TestRelocateSuccessfulWithManyImages(t *testing.T) {
 kind: Object
 spec:
 - image: index.docker.io/cfidentity/uaa@sha256:9f1e7e399c96309935145624d1824b2c2bf93656fd9c4dcf1c593b55f98aa6a8
-- image: index.docker.io/cloudfoundry/capi-kpack-watcher@sha256:67125e0d3a4026a23342d80e09aad9284c08ab4f7b3d9a993ae66e403d5d0796
 - image: index.docker.io/cloudfoundry/capi@sha256:51e4e48c457d5cb922cf0f569e145054e557e214afa78fb2b312a39bb2f938b6
 - image: index.docker.io/cloudfoundry/cloud-controller-ng@sha256:374f967edd7db4d7efc2f38cb849988aa36a8248dd240d56f49484b8159fd800
 - image: index.docker.io/cloudfoundry/cnb@sha256:5b03a853e636b78c44e475bbc514e2b7b140cc41cca8ab907e9753431ae8c0b0
@@ -91,7 +90,6 @@ spec:
 kind: Object
 spec:
 - image: index.docker.io/*username*/kbld-test-relocate-successful-with-many-images@sha256:9f1e7e399c96309935145624d1824b2c2bf93656fd9c4dcf1c593b55f98aa6a8
-- image: index.docker.io/*username*/kbld-test-relocate-successful-with-many-images@sha256:67125e0d3a4026a23342d80e09aad9284c08ab4f7b3d9a993ae66e403d5d0796
 - image: index.docker.io/*username*/kbld-test-relocate-successful-with-many-images@sha256:51e4e48c457d5cb922cf0f569e145054e557e214afa78fb2b312a39bb2f938b6
 - image: index.docker.io/*username*/kbld-test-relocate-successful-with-many-images@sha256:374f967edd7db4d7efc2f38cb849988aa36a8248dd240d56f49484b8159fd800
 - image: index.docker.io/*username*/kbld-test-relocate-successful-with-many-images@sha256:5b03a853e636b78c44e475bbc514e2b7b140cc41cca8ab907e9753431ae8c0b0
