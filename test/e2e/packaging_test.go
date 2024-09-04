@@ -249,7 +249,7 @@ overrides:
   preresolved: true
 `
 
-	expectedPackagedSHA := "9d2f9e15541d6c136c28cc10e0e469f6a8b48876"
+	expectedPackagedSHA := "e2c66f42fdac6993741440ba157fe4fb3f505eb3"
 
 	path := "/tmp/kbld-test-pkg-unpkg-successful-with-many-images"
 	defer os.RemoveAll(path)
