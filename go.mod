@@ -2,6 +2,8 @@ module github.com/vmware-tanzu/carvel-kbld
 
 go 1.22
 
+toolchain go1.22.5
+
 require (
 	carvel.dev/imgpkg v0.40.2
 	carvel.dev/vendir v0.39.2
