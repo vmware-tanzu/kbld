@@ -1,6 +1,6 @@
 module github.com/vmware-tanzu/carvel-kbld
 
-go 1.21
+go 1.22
 
 require (
 	github.com/cppforlife/cobrautil v0.0.0-20221021151949-d60711905d65
@@ -10,8 +10,8 @@ require (
 	github.com/kisielk/errcheck v1.6.3
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
-	github.com/vmware-tanzu/carvel-imgpkg v0.38.4
-	github.com/vmware-tanzu/carvel-vendir v0.35.4
+	github.com/vmware-tanzu/carvel-imgpkg v0.38.5
+	github.com/vmware-tanzu/carvel-vendir v0.35.5
 	golang.org/x/sync v0.3.0
 	k8s.io/apimachinery v0.28.1
 	sigs.k8s.io/yaml v1.3.0
@@ -22,9 +22,8 @@ require (
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3 // indirect
 	github.com/cppforlife/color v1.9.1-0.20200716202919-6706ac40b835 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/docker/cli v24.0.0+incompatible // indirect
+	github.com/docker/cli v27.1.1+incompatible // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
-	github.com/docker/docker v24.0.0+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
