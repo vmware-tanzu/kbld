@@ -1,7 +1,7 @@
 # carvel.dev/imgpkg v0.43.1
 ## explicit; go 1.22.5
 carvel.dev/imgpkg/pkg/imgpkg/lockconfig
-# carvel.dev/vendir v0.41.0
+# carvel.dev/vendir v0.41.1
 ## explicit; go 1.22.5
 carvel.dev/vendir/pkg/vendir/versions
 carvel.dev/vendir/pkg/vendir/versions/v1alpha1
