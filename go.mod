@@ -9,7 +9,7 @@ require (
 	github.com/cppforlife/go-cli-ui v0.0.0-20220428182907-73db60c7611a
 	github.com/google/go-containerregistry v0.20.2
 	github.com/hashicorp/go-version v1.6.0
-	github.com/kisielk/errcheck v1.7.0
+	github.com/kisielk/errcheck v1.8.0
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/sync v0.8.0
