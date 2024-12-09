@@ -15,13 +15,13 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.22'
+          go-version: '1.23'
       - uses: actions/checkout@v4
         with:
           fetch-depth: '0'
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v6
         with:
-          version: v1.58
+          version: v1.62
           args: -v
 
