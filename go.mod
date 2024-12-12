@@ -12,7 +12,7 @@ require (
 	github.com/kisielk/errcheck v1.8.0
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.10.0
-	golang.org/x/sync v0.9.0
+	golang.org/x/sync v0.10.0
 	k8s.io/apimachinery v0.31.3
 	sigs.k8s.io/yaml v1.4.0
 )
